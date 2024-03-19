@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import logo1 from '../../assets/imgs/Group3.png'
 import './Navbar.css'
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -14,6 +15,8 @@ const Navbar = () => {
 
 
   return (
+
+    
     <nav className="navbar">
       <div className="navCon">
         <div className="logo">
@@ -32,10 +35,10 @@ const Navbar = () => {
 
         <div className={`navlinks ${isOpen ? 'open' : ''}`}>
 
-          <a href="" className="links">Home</a>
-          <a href="" className="links">Campaigns</a>
-          <a href="" className="links">Who we are?</a>
-          <a href="" className="links">Join us</a>
+          <NavLink to="/" className="links">Home</NavLink>
+          <NavLink to="/faq" className="links">Faqs </NavLink>
+          <NavLink to="/contactUs" className="links">Who we are?</NavLink>
+          <NavLink to="/aboutUs" className="links">Contact Us</NavLink>
           <button className="btn1 drawerbtn">Sign Up</button>
         </div>
 

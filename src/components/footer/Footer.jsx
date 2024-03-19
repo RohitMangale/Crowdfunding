@@ -6,6 +6,7 @@ import { IoLogoFacebook } from "react-icons/io";
 import { IoLogoLinkedin } from "react-icons/io";
 import { IoLogoInstagram } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -28,10 +29,10 @@ const Footer = () => {
                 </div>
                 <div className="footerLinks">
                     <p className='subHeading'>Company</p>
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">FAQ</a>
-                    <a href="">Projects</a>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/camCreateForm">CampaignC</NavLink>
+                    <NavLink to="/faq">FAQ</NavLink>
+                    <NavLink to="/">Projects</NavLink>
                 </div>
                 <div className="footerLinks">
                     <p className='subHeading' >Company Services</p>
