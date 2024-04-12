@@ -14,7 +14,7 @@ const ProgressBar = ({ percentage }) => {
           } else {
               clearInterval(interval);
           }
-      }, 10);
+      }, 100);
 
       return () => clearInterval(interval);
   }, [fillPercentage, percentage]);

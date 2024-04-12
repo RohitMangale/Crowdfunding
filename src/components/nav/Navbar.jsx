@@ -37,8 +37,8 @@ const Navbar = () => {
 
           <NavLink to="/" className="links">Home</NavLink>
           <NavLink to="/faq" className="links">Faqs </NavLink>
-          <NavLink to="/contactUs" className="links">Who we are?</NavLink>
-          <NavLink to="/aboutUs" className="links">Contact Us</NavLink>
+          <NavLink to="/aboutUs" className="links">Who we are?</NavLink>
+          <NavLink to="/contactUs" className="links">Contact Us</NavLink>
           <button className="btn1 drawerbtn">Sign Up</button>
         </div>
 

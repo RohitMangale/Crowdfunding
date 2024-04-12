@@ -32,13 +32,10 @@ const HomeSlider = () => {
                 static={false} // Add curly braces for boolean value
             >
                 {Campaigns.map(campaign => (
-                    <div className="carousel-cell">
-                        <CamCard {...campaign} key={campaign.camId} />
+                    <div  key={campaign.camId} className="carousel-cell">
+                        <CamCard {...campaign} />
                     </div>
                 ))}
-
-
-
 
 
 

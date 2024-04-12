@@ -69,7 +69,7 @@ const Header = () => {
                             <div className="hc_info border none">
                                 <div className="hc_nums">
 
-                                <CountUp start={0} end={100} delay={0} suffix='+'>
+                                <CountUp start={0} end={465} delay={0} suffix='+'>
                                 {({ countUpRef }) => (
                                   <div>
                                     <span ref={countUpRef} />
