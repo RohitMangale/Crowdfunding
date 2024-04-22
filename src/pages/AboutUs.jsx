@@ -2,7 +2,7 @@ import React from 'react'
 const links = [
   { name: 'Contact Us', href: '/ContactUs' },
   { name: 'Internship program', href: '#' },
-  { name: 'Our values', href: '#' },
+  { name: 'Our values', href: '/Values' },
   { name: 'Meet our leadership', href: '/Team' },
   
 ]

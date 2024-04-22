@@ -10,6 +10,7 @@ import Faq from './pages/Faq.jsx'
 import ContactUs from './pages/ContactUs.jsx'
 import AboutUs from './pages/AboutUs.jsx'
 import Team from './pages/Team.jsx'
+import Values from './pages/Values.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -19,8 +20,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='camCreateForm' element={<CamCreation />} />
       <Route path='faq' element={<Faq/>} />
       <Route path='contactUs' element={<ContactUs />} />
-      <Route path='aboutUs' element={<AboutUs />} />
       <Route path='team' element={<Team />} />
+      <Route path='aboutUs' element={<AboutUs />} />
+      <Route path='values' element={<Values />} />
     </Routes>
     <Footer/>
   </BrowserRouter>
